@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mycss.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Ma.Fritche Zarandin</h1>
+    <p>Get to know me?!</p>
+    <button>Read More</button>
+  </div>
+
+
+  <div class="topnav" id="myTopnav">
+  <a href="exercise06.html">Home</a>
+  <a href="#aboutme">About Me</a>
+  <a href="#myfamily">Family</a>
+  <a href="#hometown">Hometown</a>
+  <a href="#friends">Friends</a>
+  <a href="#favorites">Favorites</a>
+   <a href="#awards">Awards</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+    <script>
+      
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+  function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+  </script>
+
+<div class="column-2">
+<div class="container8" id="home">
+  <div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/image1.jpg">
+    <img src="Pics/image1.jpg" alt="Image1" width="400" height="400">
+  </a>
+  <div class="desc">"Sometimes you will never know the value of a moment until it becomes a memory."</div>
+  </div>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/image2.jpg">
+    <img src="Pics/image2.jpg" alt="Image2" width="400" height="400">
+  </a>
+  <div class="desc">" Keep your face to the sunshine and you will never see the shadows." </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/image3.jpg">
+    <img src="Pics/image3.jpg" alt="Image3" width="400" height="400">
+  </a>
+  <div class="desc">"The great thing in this world is not so much where we are, but in what direction we are going."</div>
+  </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="Pics/image4.jpg">
+    <img src="Pics/image4.jpg" alt="Image4" width="400" height="400">
+  </a>
+  <div class="desc">"You don't need to be better than anyone else,you just need to be better than you used to be."</div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="column-2">
+<div class="container3" id="aboutme">
+  <div class="row">
+    <div class="column-33">
+        <img src="Pics/id.jpg" width="400" height="800">
+    </div>
+    <div class="column-66">
+      <h1 class="large-font"><b>About me</b></h1>
+      <p><span style="font-size:15px"> 
+        Hi there! Welcome to my autobiography website! I am so excited to share my journey with you. I created this website because I truly believe in the power of self-expression and connecting with others. My name is Ma. Fritche T. Zarandin and I am currently a second-year student at Romblon State University. </p>
+       <p><span style="font-size:15px"> 
+        I am grateful for my loving and supportive family, who have taught me valuable life lessons. In my free time, I enjoy exploring new foods, watching movies, and browsing social media. I have zero tolerance for fake people, but I am determined to succeed in both my studies and personal development. With the unwavering support of my loved ones, I have learned to never give up and to be independent, which I know will serve me well in the future. I am truly fortunate to have them in my life.</p>
+       <p><span style="font-size:15px"> 
+        On my website, you can learn more about me, my personality, my abilities, and the events that have shaped my journey. I also offer assistance with various tasks, answers to questions, and a space for meaningful conversations. My hope is that by creating a platform for open dialogue and self-expression, we can foster personal development, mutual growth, and meaningful connections. So come on in and join me on this journey of self-discovery and connection.</p>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div class="column-2">
+<div class="container4" id="myfamily">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>My Family</b></h1>
+        <p><span style="font-size:12px"> 
+        In my simple family, my father that from Aklan is a skilled carpenter who brings his passion for carpentry into our daily lives. His talent and craftsmanship provide for our family and inspire us with his creations. My mother who lives in Romblon, as a homemaker, creates a nurturing environment at home, ensuring everything runs smoothly. Together, their love and support strengthen the bond within our family. Their dedication and teamwork teach us the values of cooperation, respect, and appreciation. We are grateful for the love and memories that shape us as individuals.A simple family is one that treasures togetherness, kindness, and shared experiences. It means finding happiness in small gestures and everyday routines. Whether it's gathering around the dinner table, having heartfelt conversations, or enjoying simple activities like going for walks or playing games, what matters the most is the quality time spent together.
+
+        In our simple family, there is a sense of warmth and comfort that comes from knowing you have a safe and loving space to come home to. It's about creating a nurturing environment where our family member feels seen, heard, and valued. It's not about material possessions or extravagant outings, but rather the love and connection that we share with one another.</span></p>     
+        <p><span style="font-size:12px"> 
+        As the eldest child in a family, I am responsible for guiding and supporting my siblings. My brother, who is creative and artistic, brings a unique perspective to our lives. My parents, who have a strong love for kindness, respect, and empathy, have instilled these values in us. My siblings' dedication, creativity, and humble backgrounds have provided a stable foundation for our family.I describe our faily the one that treasures togetherness, kindness, and shared experiences. It means finding happiness in small gestures and everyday routines. Whether it's gathering around the dinner table, having heartfelt conversations, or enjoying simple activities like going for walks or playing games, what matters the most is the quality time spent together.
+</span></p> 
+        <p><span style="font-size:12px"> 
+        Their humble backgrounds, hard work, and dedication to their careers have provided a stable foundation for our family. As the eldest child, I take pride in nurturing and guiding my siblings, embodying the positive traits instilled by my parents. Our family exemplifies love, support, and unity, creating a strong bond that we cherish and nurture each day. Having this kind of family allows you to appreciate the beauty in ordinary moments and find contentment in the love and support of your loved ones. It's about creating a strong foundation of love, trust, and understanding that will carry you through life's ups and downs. Cherish your simple family, as they are the ones who will always be there for you, no matter what.
+      </span></p>     
+    </div>
+    <div class="column-33">
+      <img src="Pics/fam.jpg" width="700" height="600" >
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div class="column-2">
+<div class="container6" id="hometown">
+<h1 class="xlarge-font" style="text-align:center"><b>     </b></h1><br/>
+<h1 class="xlarge-font" style="text-align:center"><b>ABOUT MY HOMETOWN</b></h1>
+<p style="text-align:center" margin="0" font-size="12px">Please click the picture for more information!</p>
+<div class="row">
+  <div class="column">
+    <img src="Pics/brgy.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    
+  </div>
+  <div class="column">
+    <img src="Pics/favplace.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Pics/house.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Pics/pet.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Pics/brgy.jpg" style="width:100%">
+       <div class="caption-container">
+        <p style="font-size:18px"><b> MY BARANGAY</b></p>
+        <p style="font-size:15px" >Agojo is known for its beautiful beaches and crystal-clear waters, making it a charming destination for visitors.</p>
+  </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Pics/favplace.jpg" style="width:100%">
+      <div class="caption-container">
+        <p style="font-size:18px"><b> MY FAVORITE PLACE</b></p>
+        <p style="font-size:15px" >It is a place where you can enjoy the sound of crashing waves, feel the warmth of the sun on your skin, and witness the mesmerizing beauty of the coastline. The seashore offers a sense of tranquility and relaxation, making it a favorite place for many people to unwind and connect with nature.</p>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Pics/house.jpg" style="width:100%">
+      <div class="caption-container">
+        <p style="font-size:18px"><b> MY HOUSE</b></p>
+        <p style="font-size:15px" >Living in a simple house with a simple life leads to a more fulfilling and balanced existence, where genuine happiness is found in the simplicity of everyday moments.Embracing a simple life goes hand in hand with having a simple house. A minimalist approach focuses on the essentials and creates an uncluttered living space.</p>
+      </div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Pics/pet.jpg" style="width:100%">
+      <div class="caption-container">
+        <p style="font-size:18px"><b> MY FAVORITE PET</b></p>
+        <p style="font-size:15px" >Dogs are known for their loyalty, companionship, and affectionate nature.Owning a dog can bring immense happiness and fulfillment to individuals and families alike.Dogs have been domesticated for thousands of years and have formed a strong bond with us. They provide emotional support, companionship, and joy to our family.</p>
+      </div>
+    </div>
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="Pics/brgy.jpg" style="width:100%" onclick="currentSlide(1)">
+
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/favplace.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/house.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Pics/pet.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="column-2">
+<div class="container5" id="friends">
+  <div class="row">
+     <div class="column-33">
+        <img src="Pics/friends.jpg" alt="MY PET" width="800" height="700">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font" style="color:#fffdfd;">ABOUT MY FRIENDS</h1>
+      <p><span style="font-size:13px"> 
+        Having friends can bring joy, provide support, and create meaningful connections in our lives. Each friend has a unique set of positive characteristics that enrich our relationships. A good friend is someone who is trustworthy, and you can rely on them when you need them. They listen without judging, and their presence is comforting in both good and bad times. Kindness is another valuable trait that a friend should possess. They show empathy, compassion, and genuine care for your well-being. They are considerate of your feelings and needs, and always offer a helping hand when required.   
+        Having friends from elementary to college is a remarkable experience that creates lifelong bonds and treasured memories. From elementary school, where you meet classmates and build a foundation, to middle and high school, where friendships expand through shared experiences, to college, where you meet people from diverse backgrounds, these friendships accompany you through different stages of life. These friends have supported you, celebrated your successes, and been there during challenging times. Cherish these friendships, as they are truly special and can withstand the test of time and distance.</span></p>
+      <p><span style="font-size:13px"> 
+        A good sense of humor is a wonderful trait that can make even the toughest times seem bearable. A friend who brings laughter into your life can lighten up any situation and help you find joy in the simplest moments. Supportiveness is another crucial characteristic of a good friend. They cheer you on and celebrate your successes. They offer encouragement during challenging times and inspire you to reach your full potential. Reliability is another positive characteristic that fosters trust and dependability. A reliable friend is someone you can count on, knowing that they will be there when you need them. They follow through on their commitments, and you can always rely on them to prioritize our friendships.
+        Lastly, a good friend should be open-minded, embrace diversity, and be accepting of different perspectives. They are non-judgmental and accepting, which makes you feel comfortable being yourself. They encourage growth and understanding through respectful conversations and shared experiences. Having friends with these positive characteristics enhances our lives, providing love, support, and shared memories. They contribute to our happiness and well-being, making the journey of life more enjoyable and fulfilling.
+        </span></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="column-2">
+<div class="row">
+  <div class="container7" id="favorites">
+    <h1 class="xlarge-font" style="text-align:center"><b>     </b></h1><br/>
+    <h1 class="xlarge-font" style="text-align:center"><b>MY FAVORITES</b></h1>
+    <p style="text-align:center" margin="0" font-size="12px">Please scroll to the right/left  picture for more information!</p>
+  <div class="gallery1">
+      <div class="image-container">
+          <img class="image1" src="Pics/hobbies.jpg" alt="Hobbies">
+          <div class="description"><p font-size="25px"><b>HOBBY</p></b>
+            Eating as a hobby is a delightful exploration of flavors, cultures, and culinary experiences that brings joy and satisfaction to those who engage in it.</div>
+      </div>
+      <div class="image-container">
+          <img class="image1" src="Pics/favcolor.jpg" alt="Favorite Color">
+          <div class="description"> <p font-size="25px"><b>COLOR</p></b>
+            The combination of yellow and black as a favorite color palette brings together vibrancy, positivity, sophistication, and personal style.</div>
+      </div>
+      <div class="image-container">
+          <img class="image1" src="Pics/favfood.jpg" alt="Favorite Food">
+          <div class="description">  <p font-size="25px"><b>FOOD</p></b>
+            One of my all-time favorite dishes is pork adobo, which features succulent marinated pork cooked in a delicious blend of soy sauce, vinegar, garlic, and spices. The result is a mouthwatering and satisfying culinary experience.</div>
+      </div>
+      <div class="image-container">
+          <img class="image1" src="Pics/bora.jpg" alt="Favorite Place">
+          <div class="description"> <p font-size="25px"><b>PLACE</p></b>
+            Boracay is a popular destination known for its beautiful white sand beaches, clear turquoise waters, and lively atmosphere. It's a great place to relax, have an adventure, and enjoy natural beauty.</div>
+      </div>
+      <div class="image-container">
+          <img class="image1" src="Pics/favmovie.jpg" alt="Favorite Movie">
+          <div class="description">  <p font-size="25px"><b>MOVIE</p></b>
+            A captivating sci-fi/action film takes viewers through multiple dimensions, blending action sequences with mind-bending storytelling for an unforgettable experience.</div>
+      </div>
+      <div class="image-container">
+          <img class="image1" src="Pics/tvshow.jpg" alt="Favorite TVshow">
+          <div class="description">  <p font-size="25px"><b>TVSHOW</p></b>
+            A captivating series that explores the complexities of love, relationships, and the pursuit of happiness, with compelling characters and engaging storylines that keep viewers hooked from start to finish.
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="column-2">
+  <div class="row">
+<div class="container8" id="awards">
+      <h1 class="xlarge-font" style="text-align:center"><b>     </b></h1><br/>
+      <h1 class="xlarge-font" style="text-align:center"><b>MY AWARDS</b></h1>
+  <div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/award4.jpg">
+    <img src="Pics/award4.jpg" alt="Image1" width="400" height="400">
+  </a>
+  <div class="description"><p style="color:#ffffff" font-size="12px">I am proud of my accomplishments in elementary kindergarten through grade 6, which are reflected in the certificates I received. These certificates are proof of my hard work, dedication, and academic achievements during my early education. They serve as tangible evidence of my progress and the skills I have developed throughout the years. Each certificate represents a unique aspect of my growth, from completing my first year of school to receiving awards for academic excellence and participation in extracurricular activities.
+
+    Having these certificates and medals not only boosts my self-esteem and motivation to continue striving for success, but they can also be valuable for future endeavors. They are a testament to my dedication and academic achievements, representing the milestones I have reached and the foundation I have built for my future academic pursuits.</p>
+  </div>
+  </div>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/award1.jpg">
+    <img src="Pics/award1.jpg" alt="Image2" width="400" height="400">
+  </a>
+  <div class="description"><p style="color:#ffffff" font-size="12px">Being on the list of honors in high school is a significant accomplishment that highlights my exceptional academic performance and dedication. It represents my hard work, discipline, and commitment to excellence throughout my high school years. These honors, whether it's being on the honor roll, receiving awards, or being part of academic societies, validate my academic abilities and serve as evidence of my commitment to education.
+
+    Being a part of honors not only opens doors to future opportunities, such as college admissions and scholarships, but also serves as a source of pride and a reminder of my achievements. It reflects the countless hours I invested in studying and demonstrates my ability to balance academic rigor with other commitments. I will cherish this list as a symbol of my accomplishments and the foundation I have built for my future.</p>
+  </div>
+</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pics/awar2.jpg">
+    <img src="Pics/award2.jpg" alt="Image3" width="400" height="400">
+  </a>
+  <div class="description"> <p style="color:#ffffff" font-size="12px">Being on the list of honors in high school is a significant accomplishment that highlights my exceptional academic performance and dedication. It represents my hard work, discipline, and commitment to excellence throughout my high school years. These honors, whether it's being on the honor roll, receiving awards, or being part of academic societies, validate my academic abilities and serve as evidence of my commitment to education.
+
+    Being a part of honors not only opens doors to future opportunities, such as college admissions and scholarships, but also serves as a source of pride and a reminder of my achievements. It reflects the countless hours I invested in studying and demonstrates my ability to balance academic rigor with other commitments. I will cherish this list as a symbol of my accomplishments and the foundation I have built for my future.</p>
+
+  </div>
+  </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="Pics/award3.jpg">
+    <img src="Pics/award3.jpg" alt="Image1" width="400" height="400">
+  </a>
+  <div class="description"><p style="color:#ffffff" font-size="12px">
+    Participating in a mini pageant at a young age can be a delightful experience filled with joy and excitement, regardless of the outcome. While winning may not be the ultimate goal, the enjoyment comes from the process itself. It's an opportunity to showcase your unique talents, express your creativity, and make lasting memories. Joining a mini pageant at a young age is an exciting experience that allows you to showcase your talents and build confidence. It offers a platform to express your personality, learn about public speaking and poise, and receive positive feedback. These pageants also promote values such as friendship, teamwork, and community involvement, providing opportunities to make new friends and engage in charitable activities. Participating in a mini pageant at a young age is a memorable adventure that fosters personal growth and helps shape one's character.</p>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+      </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://web.facebook.com/fritche.zarandin">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.tiktok.com/@fritche0612">
+          <ion-icon name="logo-tiktok"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/ma_fritche/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    </ul>
+    <p>&copy; Ma.Fritche T. Zaranidn | All Rights Reserved</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
