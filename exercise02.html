@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mycss.css">
+
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Ma.Fritche Zarandin</h1>
+    <p>Get to know me?!</p>
+    <button>Read More</button>
+  </div>
+
+
+  <div class="topnav" id="navbar">
+  <a href="exercise06.html">Home</a>
+  <a href="#aboutme">About Me</a>
+  <a href="#myfamily">Family</a>
+  <a href="#hometown">Hometown</a>
+  <a href="#friends">Friends</a>
+  <a href="#favorites">Favorites</a>
+   <a href="#awards">Awards</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+    <script>
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-0px";
+  }
+}
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+
+</script>
+<p>Page Content..</p>
+
+</body>
+</html>
