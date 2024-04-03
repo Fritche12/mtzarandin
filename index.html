@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  
 <head>
-    <title>My Autobiography</title>
+  <title>My Autobiography</title>
+
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="mycss.css">
 <style>
@@ -27,13 +27,25 @@
   <a href="#friends">Friends</a>
   <a href="#favorites">Favorites</a>
    <a href="#awards">Awards</a>
+   <div class="dropdown">
+    <button class="dropbtn">Exercises
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="exercise01.html">Exercise 1(Hero Image)</a>
+      <a href="exercise02.html">Exercise 2(Nav Bar)</a>
+      <a href="exercise03.html">Exercise 3(Div Gallery)</a>
+      <a href="exercise04.html">Exercise 4(ZigZag)</a>
+      <a href="exercise05.html">Exercise 5(Footer)</a>
+    </div>
+  </div> 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 </div>
     <script>
-      
+
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
