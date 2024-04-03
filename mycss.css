@@ -1,1 +1,550 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("Pics/myself.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  position:relative;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 18px;
+  color: rgb(6, 6, 6);
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #ffdf00;
+  color: white;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff349e3;
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d33;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+div.gallery {
+  border: 2px solid #a39d9d;
+}
+
+div.gallery:hover {
+  border: 4px solid #ffe02e;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 50%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+  padding:20x;
+  width: 100%;
+  height: auto;
+  background-color: #030202;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+
+.container3 {
+  padding:20x;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  background-color: #d4d4d4;
+  color: rgb(0, 0, 0);
+}
+
+.container4 {
+  padding:20x;
+  width: 100%;
+  height: auto;
+  background-color: #030202;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.container5 {
+  padding:30x;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.container6{
+  padding:20x;
+  margin:0;
+  min-height: 400px;
+  background-color:  #d4d4d4;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+.container7 {
+  padding:20x;
+  min-height: 500px;
+  text-align: center;
+  background-color: #d4d4d4;
+  color: rgb(0, 0, 0);
+}
+
+.container8 {
+  padding:20x;
+  min-height: 500px;
+  text-align: center;
+  background-color: #000000;
+  color: rgb(255, 250, 250);
+}
+
+.gallery1 {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 10px;
+
+}
+
+.image-container {
+  flex: center;
+  padding: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1.5px solid #1e2522;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.image1 {
+  min-width: 300px;
+  min-height: 350px;
+}
+
+.description {
+  margin: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.image-container:hover{
+  border-color: #324938;
+  box-shadow: 0 0 10px #324938;
+
+}
+
+.container8 {
+  padding:30x;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 10px;
+}
+.column-2{
+  float: left;
+  width: 100%;
+  background-color: #030202;
+}
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 35px;
+}
+
+.xlarge-font {
+  font-size: 30px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #E8B12D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+div.gallery1 {
+  border: 2px solid #020202;
+}
+
+div.gallery1:hover {
+  border: 2px solid #ffa621;
+}
+
+div.gallery1 img {
+  width: 210px;
+  height: 250px;
+}
+
+div.desc1 {
+  padding: 1px;
+  text-align: center;
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive1 {
+  padding: 0 6px;
+  float: left;
+  width: 210px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive1 {
+    width: 210px;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive1 {
+    width: 210px;
+  }
+}
+
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.footer {
+  position: relative;
+  width: 100%;
+  background-image:url("Pics/footer.gif");
+  
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+}
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+.menu__link:hover {
+  opacity: 1;
+}
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+} 
+
+/* HOMETOWN*/
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #d4d4d4;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+  padding: 5px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 5;
+}
+
+img.hover-shadow {
+  transition: 0.5s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(235, 231, 32, 0.815), 0 6px 20px 0 rgba(255, 94, 31, 0.822);
+}
 
